@@ -6,7 +6,10 @@ module nft_launchpad_addr::nft_launchpad {
 
     const COLLECTION_NAME: vector<u8> =  b"Collection Name";
     const COLLECTION_DESCRIPTION: vector<u8> =  b"Collection Description";
-    const COLLECTION_URI: vector<u8> =  b"Collection Uri";
+    // const COLLECTION_URI: vector<u8> =  b"Collection Uri";
+    const COLLECTION_URI: vector<u8> =  b"https://blue-active-cicada-149.mypinata.cloud/ipfs/bafybeifgxgfagstz46a7do4shozm6scfpefsmpycquxfsrva4zqj3gaqqa";
+
+
 
     struct CollectionCreator has key {
         extend_ref: ExtendRef
