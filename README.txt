@@ -1,24 +1,3 @@
-
-aptos move init --name contracts 
-aptos init
-
-aptos move compile
-aptos move build
-aptos move test
-aptos move deploy
-
-
-pnpm create next-app@latest
-pnpm install
-pnpm install @aptos-labs/wallet-adapter-react
-pnpm run dev
-
-
-//  aptos.dev/en/build/sdks/wallet-adapter/dapp 
-
-// https://github.com/aptos-labs/aptos-wallet-adapter/tree/main/packages/wallet-adapter-ant-design
-
-pnpm install @aptos-labs/wallet-adapter-ant-design
-
-"use client";  -> search 
+This app mints an NFT into the testnet. The minting is done with FE app that has a mint button and a button that connects
+to the Petra Wallet app.
 
